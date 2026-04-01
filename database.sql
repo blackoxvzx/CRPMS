@@ -1,0 +1,21 @@
+-- i prefer to write my database schema in this sql file incase i may need to import my database schema somewhere else
+
+CREATE DATABASE CRPMS;
+USE CRPMS;
+
+CREATE TABLE Car (
+    PlateNumber VARCHAR(20) PRIMARY KEY,
+    type VARCHAR(50) NOT NULL,
+    Model VARCHAR(50) NOT NULL,
+    ManufacturingYear INT NOT NULL,
+    DriverPhone VARCHAR(20) NOT NULL,
+    MechanicName VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Staff (
+    StaffID INT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Position VARCHAR(50) NOT NULL,
+    Phone VARCHAR(20) NOT NULL,
+    Email VARCHAR(100) NOT NULL
+);
