@@ -1,5 +1,3 @@
--- i prefer to write my database schema in this sql file incase i may need to import my database schema somewhere else
-
 CREATE DATABASE CRPMS;
 USE CRPMS;
 
